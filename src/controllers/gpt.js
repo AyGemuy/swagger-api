@@ -1103,7 +1103,7 @@ export async function gptzw7(content) {
     }
 }
 
-class Gemini {
+export class Gemini {
   constructor(apiKey = 'AIzaSyDJC5a882ruaC4XL6ejY1yhgRkN-JNQKg8') {
     this.baseURL = 'https://generativelanguage.googleapis.com/v1beta/models';
     this.apiKey = apiKey;
@@ -1195,5 +1195,3 @@ class Gemini {
     }
   }
 }
-
-export { Gemini };
